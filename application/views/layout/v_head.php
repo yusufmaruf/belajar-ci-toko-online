@@ -15,6 +15,10 @@
   <link rel="stylesheet" href="<?= base_url()?>template/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?= base_url()?>template/dist/css/adminlte.min.css">
+   <!-- DataTables -->
+  <link rel="stylesheet" href="<?= base_url() ?>template/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>template/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>template/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 
   <!-- ./wrapper -->
 
@@ -38,4 +42,17 @@
 	<!-- AdminLTE App -->
 	<script src="<?= base_url()?>template/dist/js/adminlte.min.js"></script>
 	<!-- AdminLTE for demo purposes -->
+	 <!-- DataTables  & Plugins -->
+	<script src="<?= base_url() ?>template/plugins/datatables/jquery.dataTables.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/jszip/jszip.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/pdfmake/pdfmake.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/pdfmake/vfs_fonts.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+	<script src="<?= base_url() ?>template/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 </head>

@@ -38,6 +38,13 @@
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
 	})
  </script>
+ <script>
+	window.setTimeout(function() {
+		$(".alert").fadeTo(500, 0).slideUp(500, function(){
+			$(this).remove();
+		});
+	})
+ </script>
 
 </body>
 </html>

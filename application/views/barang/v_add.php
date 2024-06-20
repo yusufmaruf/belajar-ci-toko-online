@@ -41,7 +41,6 @@
 							<label>Gambar</label>
 							<input type="file" name="gambar" class="form-control" id="preview_gambar">
 						</div>
-
 					</div>
 					<div class=" col-md-6">
 						<div class="form-group">

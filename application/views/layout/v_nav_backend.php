@@ -64,6 +64,14 @@
               </p>
             </a>
           </li>
+					<li class="nav-item ">
+            <a href="<?= base_url('gambarbarang') ?>" class="nav-link <?php if($this->uri->segment(1) == 'gambarbarang'){echo 'active';} ?>">
+              <i class="nav-icon fas fa-image"></i>
+              <p>
+                gambarbarang
+              </p>
+            </a>
+          </li>
 
           <li class="nav-item ">
             <a href="#" class="nav-link ">
